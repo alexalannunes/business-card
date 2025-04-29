@@ -9,6 +9,7 @@ inspiration
 
 result
 
-![image](https://github.com/user-attachments/assets/27bbf053-c349-494b-b72e-dcd9be4b53c7)
+<img width="474" alt="Captura de Tela 2025-04-29 às 20 32 15" src="https://github.com/user-attachments/assets/ac36634b-24e7-4092-adee-03ea2e63cd9d" />
+
 
 
