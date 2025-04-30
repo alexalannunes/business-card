@@ -7,6 +7,7 @@ export function JsonLine({
   value: string;
   isLast?: boolean;
 }) {
+  if (!value) return null;
   return (
     <div className="ml-4">
       <span className="text-red-400">&quot;{prop}&quot;</span>

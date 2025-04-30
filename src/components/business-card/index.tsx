@@ -55,7 +55,7 @@ export function BusinessCard({ email, link, name, title }: BusinessCardProps) {
             </div>
           </div>
 
-          <div className="bg-zinc-900 p-4 font-[family-name:var(--font-fira-code-mono)] text-sm">
+          <div className="bg-zinc-900 p-4 font-[family-name:var(--font-fira-code-mono)] text-sm text-left">
             <div className="flex">
               <div className="mr-4 flex flex-col text-right text-zinc-600">
                 <div>1</div>

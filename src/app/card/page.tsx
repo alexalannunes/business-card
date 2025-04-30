@@ -19,6 +19,8 @@ export default async function BusinessCardPage({
   const email = params.email || "youremail@email.com";
   const link = params.link || "you.io";
 
+  // not every dev has a website
+
   // const bracketColor = params.bracketColor || "text-zinc-400";
   // const propColor = params.propColor || "text-red-400";
   // const valueColor = params.valueColor || "text-yellow-300";
