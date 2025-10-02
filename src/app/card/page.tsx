@@ -16,8 +16,8 @@ export default async function BusinessCardPage({
   const params = await searchParams;
   const name = params.name || "your name";
   const title = params.title || "your tile";
-  const email = params.email || "youremail@email.com";
-  const link = params.link || "you.io";
+  const email = params?.email || "youremail@email.com";
+  const link = params?.link || "you.io";
 
   // not every dev has a website
 
