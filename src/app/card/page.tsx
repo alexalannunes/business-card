@@ -1,9 +1,11 @@
 import { BusinessCard } from "@/components/business-card";
 
-export default async function BusinessCardPage({
+export const runtime = "edge";
+
+export default function BusinessCardPage({
   searchParams,
 }: {
-  searchParams: Promise<{
+  searchParams: {
     name?: string;
     title?: string;
     email?: string;
@@ -11,9 +13,9 @@ export default async function BusinessCardPage({
     bracketColor?: string;
     propColor?: string;
     valueColor?: string;
-  }>;
+  };
 }) {
-  const params = await searchParams;
+  const params = searchParams;
   const name = params.name || "your name";
   const title = params.title || "your tile";
   const email = params?.email || "youremail@email.com";
